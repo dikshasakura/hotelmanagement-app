@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>htft</description>
+        <internal_name>test</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-27 15:27:09</sys_created_on>
+        <sys_id>f4dac51f3732330091ed7e5004990ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="HotelManagement" source="x_304240_hotelmana">5875d7153721330091ed7e5004990ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HotelManagement">5875d7153721330091ed7e5004990ee1</sys_scope>
+        <sys_update_name>sys_hub_flow_f4dac51f3732330091ed7e5004990ed1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-27 15:27:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4dac51f3732330091ed7e5004990ed1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f4dac51f3732330091ed7e5004990ed1"/>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Room Task Table" max_length="40" name="x_304240_hotelmana_room_task_table" sizeclass="2" type="collection"/>
+</database>

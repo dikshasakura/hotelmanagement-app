@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition><![CDATA[var answer=true;
+current.state=1;
+answer;
+
+
+]]></condition>
+        <conditional>true</conditional>
+        <name>To Get Due End Task</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-07-14 13:54:11</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var currentDate=new GlideDateTime();
+var gR=new GlideRecord('x_304240_hotelmana_room_task_table');
+gR.addQuery('state','=',1);
+gR.addQuery('due_date','<',currentDate);
+gR.query();
+while(gR.next()){
+	gs.info("Task is over due "+gR.getValue('number')); 
+	gs.eventQueue('x_304240_hotelmana.Task Event Registry',gR,"hello",gs.getUserName());
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-14 14:04:07</sys_created_on>
+        <sys_id>58e8b10f3762330091ed7e5004990ef6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>To Get Due End Task</sys_name>
+        <sys_package display_value="HotelManagement" source="x_304240_hotelmana">5875d7153721330091ed7e5004990ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HotelManagement">5875d7153721330091ed7e5004990ee1</sys_scope>
+        <sys_update_name>sysauto_script_58e8b10f3762330091ed7e5004990ef6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-14 14:26:52</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

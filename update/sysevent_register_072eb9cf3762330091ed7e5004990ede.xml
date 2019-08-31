@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Due Date Task Update</description>
+        <event_name>x_304240_hotelmana.Task Event Registry</event_name>
+        <fired_by>To Get Due End Task</fired_by>
+        <queue/>
+        <suffix>Task Event Registry</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-14 14:18:53</sys_created_on>
+        <sys_id>072eb9cf3762330091ed7e5004990ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_304240_hotelmana.Task Event Registry</sys_name>
+        <sys_package display_value="HotelManagement" source="x_304240_hotelmana">5875d7153721330091ed7e5004990ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HotelManagement">5875d7153721330091ed7e5004990ee1</sys_scope>
+        <sys_update_name>sysevent_register_072eb9cf3762330091ed7e5004990ede</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-14 14:18:53</sys_updated_on>
+        <table>x_304240_hotelmana_room_task_table</table>
+    </sysevent_register>
+</record_update>
